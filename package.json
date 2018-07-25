@@ -1,19 +1,23 @@
 {
-  "name": "design-pattern",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mariolazzari/node-design-pattern.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mariolazzari/node-design-pattern/issues"
-  },
-  "homepage": "https://github.com/mariolazzari/node-design-pattern#readme"
+    "name": "design-pattern",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mariolazzari/node-design-pattern.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mariolazzari/node-design-pattern/issues"
+    },
+    "homepage": "https://github.com/mariolazzari/node-design-pattern#readme",
+    "devDependencies": {
+        "nodemon": "^1.18.3"
+    }
 }
