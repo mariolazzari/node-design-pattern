@@ -1,4 +1,4 @@
-// Singleton
+// Singleton pattern
 class Logger {
     constructor() {
         this.logs = [];
@@ -15,6 +15,7 @@ class Logger {
     }
 }
 
+// due module caching one instance only exported
 module.exports = new Logger();
 
 /*
