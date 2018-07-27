@@ -15,6 +15,9 @@ class Logger {
     }
 }
 
+module.exports = new Logger();
+
+/*
 class Singleton {
     constructor() {
         if (!Singleton.instance) {
@@ -28,3 +31,4 @@ class Singleton {
 }
 
 module.exports = Singleton;
+*/

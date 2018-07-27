@@ -1,6 +1,9 @@
 // Singleton
+const logger = require("./Logger");
+/*
 const Logger = require("./Logger");
 let logger = new Logger().getInstance();
+*/
 
 class Shopper {
     constructor(name, money = 0) {
